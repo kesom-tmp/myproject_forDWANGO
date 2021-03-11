@@ -1,0 +1,169 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="ja">
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-163769255-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-163769255-1');
+  </script>
+
+  <meta charset="utf-8">
+  <!---<meta name="viewport" content="width=device-width,user-scalable=no">--->
+  <meta name="viewport" content="width=device-width">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="description" content="ブラウザで手軽に遊べるゲームを作っています。暇つぶしにどうぞ。">
+  <meta name="keywords" content="ゲーム,スマートフォン,ブラウザ,ブラウザゲーム,暇つぶし,ゲーミングチャーハン">
+  <meta name="twitter:creator" content="@miseromisero" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta property="og:url" content="https://gamingchahan.com/fuyasu/" />
+  <meta property="og:title" content="ふやすを増やすゲーム" />
+  <meta property="og:image" content="https://gamingchahan.com/fuyasu/images/twicard.png">
+
+  <title>ふやすを増やすゲーム</title>
+
+
+
+  <script data-ad-client="ca-pub-1200773173710092" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  
+
+  <style>
+
+  body {
+    background-color:#302833;
+    color: #FFFFFF;
+    width: 100%;
+    font-family: "Helvetica Neue",
+    Arial,
+    "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans",
+    Meiryo,
+    sans-serif;
+    overflow-x: hidden;
+    margin: auto;
+    text-align:center;
+  }
+  div:not(#game){
+    background-color: #425550;
+    text-align: center;
+    border: 3px solid #cccccc;
+  }
+  @media screen and (min-width: 767px) {
+    div:not(#game) {
+      width: 500px;
+      padding: 0px;
+      margin: 30px auto;
+    }
+    div.main {
+      height:auto;
+      overflow: hidden;
+    }
+    div.title{
+      font-size: 250%;
+    }
+  }
+  @media screen and (max-width: 767px){
+    div:not(#game) {
+      width: 95vw;
+      padding: 0vw;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 3vh;
+    }
+    div.main{
+      height: auto;
+      overflow: hidden;
+    }
+    div.title{
+      font-size: 5vh;
+    }
+  }
+ 
+
+
+
+  a{
+    color:aquamarine;
+    font-size:120%;
+  }
+  div.game{
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+  }
+  p.left{
+    text-align:left;
+  }
+
+
+
+  </style>
+
+  <script src="pixi.min.js"></script>
+  <script src="howler.min.js"></script>
+  <script src="PIXI.TextInput.min.js"></script>
+</head>
+
+<body>
+      
+
+      <a href="https://gamingchahan.com">トップ</a>
+      <div class="title">ふやすを増やす</div>
+      <label>スポンサーリンク
+        <ins class="adsbygoogle"
+        style="display:block"
+        data-ad-client="ca-pub-1200773173710092"
+        data-ad-slot="9765901814"
+        data-ad-format="auto"
+        data-full-width-responsive="true"></ins>
+      </label>
+      <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        </script><br><br><br>
+      
+      <div id="main" class="main">
+
+        <div class="game" id="game"></div>
+        ※音が出ます<br>
+        <p class="left">
+          ・「ふ」や「す」を増やそう！！<br>
+        ・「ふ」と「す」の合計が100匹以上になったらクリアです。<br>
+        ・「ふ」や「す」は生き物なので、放っておいてもある程度は勝手に増えます。<br>
+        ・あなたがとれる行動は、「たたく」か「もちあげる」か「草を生やす」ことだけです。<br>
+        ・<a href="./displayRank.php" target="_blank" rel="noopener noreferrer">ランキングはこちら</a>
+        </p>
+        <br><br>
+        フォント：<a href="http://azukifont.com/" target=”_blank”>あずきフォント</a><br>
+        
+        <br><br><br>
+        <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">ツイート</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <div class="line-it-button" data-lang="ja" data-type="share-a" data-ver="3" data-url="https://gamingchahan.com/ecchi" data-color="default" data-size="small" data-count="false" style="display: none;"></div>
+ <script src="https://www.line-website.com/social-plugins/js/thirdparty/loader.min.js" async="async" defer="defer"></script>
+ <a href="https://b.hatena.ne.jp/entry/s/gamingchahan.com/ecchi" class="hatena-bookmark-button" data-hatena-bookmark-layout="basic-label" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/v4/public/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+ <br><br>
+ <a href="https://crieit.net/boards/web1week-202102">１週間でWebサービスを作るイベント - お題「増やす」</a>の参加作品です。
+ <br><br>
+ <label>スポンサーリンク
+  <ins class="adsbygoogle"
+  style="display:block"
+  data-ad-client="ca-pub-1200773173710092"
+  data-ad-slot="9765901814"
+  data-ad-format="auto"
+  data-full-width-responsive="true"></ins>
+</label>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({});
+  </script><br><br><br>
+      </div>
+
+ 
+      <script type="module" src="script.js?133"></script><!--メインスクリプト-->
+      <br><br>
+      
+
+</body>
+</html>
