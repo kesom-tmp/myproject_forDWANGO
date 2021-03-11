@@ -1,11 +1,10 @@
 <?php
 
 /////////////////////////////////////////
-$host = "mysql4.star.ne.jp";
-//$host = "localhost";
-$db = "chicken_fuyasu";
-$username = "chicken_root";
-$pass = "uruseedamare56";
+$host = "見せられないよ！";
+$db = "見せられないよ！";
+$username = "見せられないよ！";
+$pass = "見せられないよ！";
 ////////////////////////////////////////
 
 $ary = [];
