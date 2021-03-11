@@ -1,16 +1,14 @@
 <?php
 
 /////////////////////////////////////////
-$host = "mysql4.star.ne.jp";
-//$host = "localhost";
-$db = "chicken_fuyasu";
-$username = "chicken_root";
-$pass = "uruseedamare56";
+$host = "見せられないよ！";
+$db = "見せられないよ！";
+$username = "見せられないよ！";
+$pass = "見せられないよ！";
 ////////////////////////////////////////
 
 $ary = [];
 $postData = json_decode($_POST['clearTime']);
-//$postData = ["unko",1];
 
 try{
     $dbh = new PDO("mysql:host=$host; dbname=$db; charset=utf8", $username, $pass);
@@ -25,7 +23,6 @@ try{
             break;
         }
     }
-    //echo json_encode("圏外");
 } catch(PDOexception $e){
     echo json_decode(-1);
 }
