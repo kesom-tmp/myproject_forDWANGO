@@ -9,10 +9,9 @@ $pass = "見せられないよ！";
 
 $ary = [];
 
-$postData = json_decode($_POST['clearInfo']);
+$postData = json_decode($_POST['']);
 $clearName = htmlspecialchars($postData[0], ENT_QUOTES, 'UTF-8');
 $clearTime =$postData[1];
-echo json_encode([$clearName, $clearTime]);
 
 const rankingNum = 100;
 
