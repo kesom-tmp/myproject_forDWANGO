@@ -8,7 +8,7 @@ $pass = "見せられないよ！";
 ////////////////////////////////////////
 
 $ary = [];
-$postData = json_decode($_POST['clearTime']);
+$postData = json_decode($_POST['']);
 
 try{
     $dbh = new PDO("mysql:host=$host; dbname=$db; charset=utf8", $username, $pass);
